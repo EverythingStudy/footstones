@@ -1,1 +1,1 @@
-package com.whw.basic.controller;import org.springframework.web.bind.annotation.RestController;/** * @version 1.0 * @description: TODO * @date 2021/7/13 4:51 PM */@RestControllerpublic class Test {}
+package com.whw.basic.controller;import org.springframework.web.bind.annotation.RestController;/** * @version 1.0 * @description: TODO * @date 2021/7/13 4:51 PM */@RestControllerpublic class Test {}
