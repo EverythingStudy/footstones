@@ -14,12 +14,15 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fe" target="1.7" />
-      <module name="ft-support" target="1.7" />
+      <module name="ft-support" target="1.8" />
       <module name="gf" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ft-api" options="-parameters" />
+      <module name="ft-common" options="-parameters" />
+      <module name="ft-support" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>
   </component>
