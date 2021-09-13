@@ -3,13 +3,13 @@
     <parent>
         <artifactId>footstones</artifactId>
         <groupId>com.whw</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ft-api</artifactId>
     <packaging>jar</packaging>
-    <name>Maven Quick Start Archetype</name>
-    <url>http://maven.apache.org</url>
+    <name>ft-api</name>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

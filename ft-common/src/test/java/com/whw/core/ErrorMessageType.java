@@ -1,0 +1,1 @@
+package com.whw.core;public interface ErrorMessageType {    /**     * 错误编码     * @return     */    Integer errorCode();    /**     * 错误描述     * @return     */    String errorMessage();}

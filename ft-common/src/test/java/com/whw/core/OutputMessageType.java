@@ -1,0 +1,1 @@
+package com.whw.core;public interface OutputMessageType <T> extends ErrorMessageType{    /**     * 获取返回数据     * @return     */    T data();}
