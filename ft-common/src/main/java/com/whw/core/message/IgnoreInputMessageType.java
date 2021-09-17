@@ -1,1 +1,0 @@
-package com.whw.core.message;import java.lang.annotation.*;/** * 标识controller下面的请求不需要解析params包装，丑 */@Target(ElementType.TYPE)@Retention(RetentionPolicy.RUNTIME)@Documentedpublic @interface IgnoreInputMessageType {}

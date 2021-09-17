@@ -1,0 +1,1 @@
+package com.whw.footstones.core.message;public interface ErrorMessageType {    /**     * 错误编码     * @return     */    Integer errorCode();    /**     * 错误描述     * @return     */    String errorMessage();}

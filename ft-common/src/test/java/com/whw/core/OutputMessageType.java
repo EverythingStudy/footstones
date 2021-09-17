@@ -1,1 +1,1 @@
-package com.whw.core;import com.whw.core.message.ErrorMessageType;public interface OutputMessageType <T> extends ErrorMessageType {    /**     * 获取返回数据     * @return     */    T data();}
+package com.whw.core;import com.whw.footstones.core.message.ErrorMessageType;public interface OutputMessageType <T> extends ErrorMessageType {    /**     * 获取返回数据     * @return     */    T data();}

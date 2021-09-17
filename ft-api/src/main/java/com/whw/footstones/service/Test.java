@@ -1,0 +1,1 @@
+package com.whw.footstones.service;import com.whw.footstones.core.message.OutputMessage;/** * @version 1.0 * @description: TODO * @date 2021/9/17 11:26 AM */public class Test {    public OutputMessage test() {        return OutputMessage.success("成功");    }}

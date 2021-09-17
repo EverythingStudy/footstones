@@ -1,0 +1,1 @@
+package com.whw.footstones.service;/** * @version 1.0 * @description: TODO * @date 2021/9/17 11:24 AM */public interface Test2Interface {    void test();}

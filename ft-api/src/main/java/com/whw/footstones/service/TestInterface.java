@@ -1,0 +1,1 @@
+package com.whw.footstones.service;public interface TestInterface {    void test();}
