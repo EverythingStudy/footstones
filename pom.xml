@@ -7,8 +7,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.4.RELEASE</version>
-        <relativePath/>
+        <version>2.5.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.whw</groupId>
@@ -169,24 +169,24 @@
         </pluginManagement>
     </build>
     <!--<repositories>-->
-        <!--<repository>-->
-            <!--<id>nexus</id>-->
-            <!--<name>songguo public nexus</name>-->
-            <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/groups/public</url>-->
-        <!--</repository>-->
+    <!--<repository>-->
+    <!--<id>nexus</id>-->
+    <!--<name>songguo public nexus</name>-->
+    <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/groups/public</url>-->
+    <!--</repository>-->
     <!--</repositories>-->
     <!--<distributionManagement>-->
-        <!--<repository>-->
-            <!--<id>ttyc-songguo7-releases</id>-->
-            <!--<name>Songguo Nexus Releases Repository</name>-->
-            <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/releases/</url>-->
-        <!--</repository>-->
+    <!--<repository>-->
+    <!--<id>ttyc-songguo7-releases</id>-->
+    <!--<name>Songguo Nexus Releases Repository</name>-->
+    <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/releases/</url>-->
+    <!--</repository>-->
 
-        <!--<snapshotRepository>-->
-            <!--<id>ttyc-songguo7-snapshots</id>-->
-            <!--<name>Songguo Nexus Snapshots Repository</name>-->
-            <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/snapshots/</url>-->
-        <!--</snapshotRepository>-->
+    <!--<snapshotRepository>-->
+    <!--<id>ttyc-songguo7-snapshots</id>-->
+    <!--<name>Songguo Nexus Snapshots Repository</name>-->
+    <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/snapshots/</url>-->
+    <!--</snapshotRepository>-->
     <!--</distributionManagement>-->
 
     <modules>

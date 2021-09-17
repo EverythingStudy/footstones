@@ -13,16 +13,32 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ear" target="1.8" />
+      <module name="ejbs" target="1.8" />
       <module name="fe" target="1.7" />
+      <module name="ft-ge" target="1.8" />
+      <module name="ft-gm" target="1.8" />
       <module name="ft-support" target="1.8" />
+      <module name="ft-te" target="1.8" />
       <module name="gf" target="1.7" />
+      <module name="logging" target="1.8" />
+      <module name="primary-source" target="1.8" />
+      <module name="projects" target="1.8" />
+      <module name="servlet" target="1.8" />
+      <module name="servlets" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ejbs" options="-parameters" />
       <module name="ft-api" options="-parameters" />
       <module name="ft-common" options="-parameters" />
+      <module name="ft-gm" options="-parameters" />
       <module name="ft-support" options="-parameters" />
+      <module name="ft-te" options="-parameters" />
+      <module name="logging" options="-parameters" />
+      <module name="primary-source" options="-parameters" />
+      <module name="servlet" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>
   </component>
