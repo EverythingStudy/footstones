@@ -1,0 +1,1 @@
+package com.whw.footstones.ft.impl;import lombok.Data;/** * @version 1.0 * @description: TODO * @date 2021/9/22 4:02 PM */@Datapublic class Test {    private String name;}

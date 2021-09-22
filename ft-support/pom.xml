@@ -21,11 +21,6 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ft-api</artifactId>
-            <version>1.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>ft-common</artifactId>
             <version>${version}</version>
         </dependency>
         <!-- Druid 数据连接池依赖 -->
@@ -35,13 +30,16 @@
         </dependency>
         <!-- Spring Boot Mybatis 依赖 -->
         <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
         </dependency>
-        <!-- MySQL 连接驱动依赖 -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
     </dependencies>
 </project>

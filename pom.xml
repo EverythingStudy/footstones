@@ -25,6 +25,9 @@
         <swagger2>2.8.0</swagger2>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
         <spring-cloud-alibaba>0.2.2.RELEASE</spring-cloud-alibaba>
+        <mysql-connector>5.1.39</mysql-connector>
+        <mybatis-plus>3.1.1</mybatis-plus>
+        <mybatis-spring>1.2.0</mybatis-spring>
     </properties>
 
     <dependencies>
@@ -57,33 +60,42 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+            <version>4.1.1</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>sharding-core-common</artifactId>
+            <version>4.1.1</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
+            <!-- MySQL 连接驱动依赖 -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector}</version>
+            </dependency>
             <!-- Spring Boot Mybatis 依赖 -->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>1.2.0</version>
+                <version>${mybatis-spring}</version>
             </dependency>
             <!--mybatis plus依赖包-->
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
-                <version>3.1.0</version>
+                <version>${mybatis-plus}</version>
             </dependency>
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis-spring</artifactId>
                 <version>2.0.0</version>
-            </dependency>
-
-            <!-- MySQL 连接驱动依赖 -->
-            <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
-                <version>5.1.39</version>
             </dependency>
 
             <!-- Druid 数据连接池依赖 -->
