@@ -1,8 +1,0 @@
-server:
-  port: 9090
-
-spring:
-  application:
-    name: ft
-  profiles:
-    include: mysql,redis,sharding
