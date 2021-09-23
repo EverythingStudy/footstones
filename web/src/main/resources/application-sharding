@@ -1,1 +1,0 @@
-spring:  shardingsphere:    datasource:      names: db-0,db-1      db-0:        type:    sharding:      default-data-source-name: db-0
