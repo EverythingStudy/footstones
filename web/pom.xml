@@ -17,6 +17,7 @@
         <version>1.0.1</version>
     </properties>
     <dependencies>
+
         <dependency>
             <groupId>com.whw</groupId>
             <artifactId>ft-support</artifactId>
