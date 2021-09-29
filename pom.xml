@@ -190,6 +190,7 @@
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${mybatis-plus}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
@@ -201,6 +202,7 @@
                 <artifactId>druid</artifactId>
                 <version>${druid}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -208,6 +210,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
@@ -215,11 +218,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
@@ -231,6 +236,7 @@
                 <artifactId>springfox-swagger2</artifactId>
                 <version>${swagger2}</version>
             </dependency>
+
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
@@ -253,7 +259,7 @@
     </dependencyManagement>
     <build>
         <finalName>footstones</finalName>
-        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
@@ -262,26 +268,26 @@
             </plugins>
         </pluginManagement>
     </build>
-    <!--<repositories>-->
-    <!--<repository>-->
-    <!--<id>nexus</id>-->
-    <!--<name>songguo public nexus</name>-->
-    <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/groups/public</url>-->
-    <!--</repository>-->
-    <!--</repositories>-->
-    <!--<distributionManagement>-->
-    <!--<repository>-->
-    <!--<id>ttyc-songguo7-releases</id>-->
-    <!--<name>Songguo Nexus Releases Repository</name>-->
-    <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/releases/</url>-->
-    <!--</repository>-->
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>songguo public nexus</name>
+            <url>http://maven.corp.songguo7.com:8360/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>ttyc-songguo7-releases</id>
+            <name>Songguo Nexus Releases Repository</name>
+            <url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/releases/</url>
+        </repository>
 
-    <!--<snapshotRepository>-->
-    <!--<id>ttyc-songguo7-snapshots</id>-->
-    <!--<name>Songguo Nexus Snapshots Repository</name>-->
-    <!--<url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/snapshots/</url>-->
-    <!--</snapshotRepository>-->
-    <!--</distributionManagement>-->
+        <snapshotRepository>
+            <id>ttyc-songguo7-snapshots</id>
+            <name>Songguo Nexus Snapshots Repository</name>
+            <url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <modules>
         <module>web</module>

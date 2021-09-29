@@ -27,7 +27,7 @@ import java.util.Map;
  **/
 @Configuration
 public class RedisConfig {
-    Logger logger= LoggerFactory.getLogger(this.getClass().getName());
+    Logger logger = LoggerFactory.getLogger(this.getClass().getName());
     /**
      * lettuce客户端连接工厂
      */
@@ -41,6 +41,7 @@ public class RedisConfig {
      * 缓存生存时间
      */
     private Duration timeToLive = Duration.ofDays(1);
+
     @Bean
     public RedisCacheManager cacheManager(RedisConnectionFactory connectionFactory) {
         //redis缓存配置
@@ -50,10 +51,10 @@ public class RedisConfig {
                 .serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(jackson2JsonRedisSerializer))
                 .disableCachingNullValues();
         //缓存配置map
-        Map<String, RedisCacheConfiguration> cacheConfigurationMap=new HashMap<>();
+        Map<String, RedisCacheConfiguration> cacheConfigurationMap = new HashMap<>();
         //自定义缓存名，后面使用的@Cacheable的CacheName
-        cacheConfigurationMap.put("users",config);
-        cacheConfigurationMap.put("default",config);
+        cacheConfigurationMap.put("users", config);
+        cacheConfigurationMap.put("default", config);
         //根据redis缓存配置和reid连接工厂生成redis缓存管理器
         RedisCacheManager redisCacheManager = RedisCacheManager.builder(connectionFactory)
                 .cacheDefaults(config)
@@ -63,6 +64,7 @@ public class RedisConfig {
         logger.debug("自定义RedisCacheManager加载完成");
         return redisCacheManager;
     }
+
     @Bean
     public RedisTemplate<String, Object> redisTemplate() {
         // 配置redisTemplate
@@ -81,21 +83,22 @@ public class RedisConfig {
     }
 
     /**
+     * @return org.springframework.data.redis.serializer.RedisSerializer<java.lang.String>
      * @Author cly
      * @Description //TODO redis键序列化使用StrngRedisSerializer
      * @Date 10:24 2020/7/1
      * @Param []
-     * @return org.springframework.data.redis.serializer.RedisSerializer<java.lang.String>
      **/
     private RedisSerializer<String> keySerializer() {
         return new StringRedisSerializer();
     }
+
     /**
+     * @return
      * @Author cly
      * @Description //TODO 缓存键自动生成器
      * @Date 16:52 2020/9/17
      * @Param
-     * @return
      **/
     @Bean
     public KeyGenerator myKeyGenerator() {
