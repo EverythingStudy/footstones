@@ -21,7 +21,6 @@
             <groupId>com.whw</groupId>
             <artifactId>ft-support</artifactId>
             <version>1.0.1</version>
-            <scope>compile</scope>
         </dependency>
 
     </dependencies>
