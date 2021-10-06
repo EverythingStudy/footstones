@@ -17,9 +17,8 @@
         <version>1.0.1</version>
     </properties>
     <dependencies>
-
         <dependency>
-            <groupId>com.whw</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>ft-support</artifactId>
             <version>1.0.1</version>
         </dependency>
