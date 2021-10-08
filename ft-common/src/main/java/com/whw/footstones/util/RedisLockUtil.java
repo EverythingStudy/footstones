@@ -1,4 +1,4 @@
-package com.whw.basic.utils;
+package com.whw.footstones.util;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -10,9 +10,14 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author chenlinya
+ * @date 2021/10/8 7:43 PM
+ * @desc
+ **/
 @Slf4j
 @Component
-public class RedissLockUtil {
+public class RedisLockUtil {
     @Autowired
     RedissonClient redissonClient;
     @Value("${redis.lock.key:ebike}")
@@ -51,7 +56,7 @@ public class RedissLockUtil {
      */
     public void unlockException(String lockKey) {
         try {
-            if (lockEnable){
+            if (lockEnable) {
                 return;
             }
             RLock lock = redissonClient.getLock(lockKey);
@@ -124,7 +129,7 @@ public class RedissLockUtil {
      * @return
      */
     public boolean tryLock(String lockKey, int waitTime, int leaseTime, boolean flag) {
-        if (lockEnable){
+        if (lockEnable) {
             return true;
         }
         if (lockKey == null) {
