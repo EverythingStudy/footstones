@@ -280,7 +280,7 @@
     </repositories>
     <distributionManagement>
         <repository>
-            <id>ttyc-songguo7-releases</id>
+            <id>aliyun-releases</id>
             <name>Songguo Nexus Releases Repository</name>
             <url>https://maven.aliyun.com/repository/central/</url>
         </repository>

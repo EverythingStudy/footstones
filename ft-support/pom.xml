@@ -7,11 +7,8 @@
         <version>1.0.1</version>
     </parent>
 
-    <groupId>com.whw</groupId>
     <artifactId>ft-support</artifactId>
-    <packaging>jar</packaging>
-    <name>ft-support</name>
-
+    
     <properties>
         <java.version>1.8</java.version>
         <version>1.0.1</version>

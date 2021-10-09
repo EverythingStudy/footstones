@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ft-api" />
         <module name="ft-common" />
-        <module name="ft-redislock" />
         <module name="ft-support" />
         <module name="web" />
       </profile>
@@ -20,6 +19,7 @@
       <module name="fe" target="1.7" />
       <module name="ft-ge" target="1.8" />
       <module name="ft-gm" target="1.8" />
+      <module name="ft-redislock" target="1.8" />
       <module name="ft-support" target="1.8" />
       <module name="ft-te" target="1.8" />
       <module name="gf" target="1.7" />
