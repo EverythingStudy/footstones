@@ -297,5 +297,6 @@
         <module>ft-support</module>
         <module>ft-common</module>
         <module>ft-api</module>
+        <module>ft-supports</module>
     </modules>
 </project>

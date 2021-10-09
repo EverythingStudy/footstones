@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>com.whw</groupId>
-            <artifactId>ft-support</artifactId>
+            <artifactId>ft-supports</artifactId>
             <version>1.0.1</version>
         </dependency>
 

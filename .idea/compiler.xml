@@ -10,6 +10,7 @@
         <module name="ft-api" />
         <module name="ft-common" />
         <module name="ft-support" />
+        <module name="ft-supports" />
         <module name="web" />
       </profile>
     </annotationProcessing>
@@ -38,6 +39,7 @@
       <module name="ft-gm" options="-parameters" />
       <module name="ft-redislock" options="-parameters" />
       <module name="ft-support" options="-parameters" />
+      <module name="ft-supports" options="-parameters" />
       <module name="ft-te" options="-parameters" />
       <module name="logging" options="-parameters" />
       <module name="primary-source" options="-parameters" />

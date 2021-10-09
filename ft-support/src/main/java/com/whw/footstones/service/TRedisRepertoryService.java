@@ -12,5 +12,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-10-09
  */
 public interface TRedisRepertoryService extends IService<TRedisRepertoryEntity> {
+     void update(TRedisRepertoryEntity r);
 
 }

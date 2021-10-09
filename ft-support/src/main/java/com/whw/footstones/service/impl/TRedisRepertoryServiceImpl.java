@@ -16,5 +16,9 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class TRedisRepertoryServiceImpl extends ServiceImpl<TRedisRepertoryMapper, TRedisRepertoryEntity> implements TRedisRepertoryService {
+    TRedisRepertoryMapper tRedisRepertoryMapper;
+    @Override
+    public void update(TRedisRepertoryEntity r) {
 
+    }
 }
