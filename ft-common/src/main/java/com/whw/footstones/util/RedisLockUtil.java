@@ -18,8 +18,10 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 @Component
 public class RedisLockUtil {
+
     @Autowired
     RedissonClient redissonClient;
+
     @Value("${redis.lock.key:ebike}")
     private String lockKeyPerfix;
 

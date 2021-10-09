@@ -1,27 +1,27 @@
-2021-10-08 09:49:52.063 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 1261 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
-2021-10-08 09:49:52.065 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding
-2021-10-08 09:49:53.183 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-10-08 09:49:53.186 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-10-08 09:49:53.221 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-2021-10-08 09:49:53.503 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:53.517 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:53.518 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:53.520 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:53.522 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:53.524 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:53.816 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$fa78b801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:54.080 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:54.085 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$23f29ccb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 09:49:54.304 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
-2021-10-08 09:49:54.312 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
-2021-10-08 09:49:54.313 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-10-08 09:49:54.380 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
-2021-10-08 09:49:54.381 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2127 ms
-2021-10-08 09:49:54.469 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
-2021-10-08 09:49:54.613 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
-2021-10-08 09:49:55.025 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
-2021-10-08 09:49:55.237 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
-2021-10-08 09:49:55.328 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
+2021-10-09 15:03:19.865 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 6726 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
+2021-10-09 15:03:19.868 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding,redis
+2021-10-09 15:03:20.846 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 15:03:20.848 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 15:03:20.873 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-10-09 15:03:21.113 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.125 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.127 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.128 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.130 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.132 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.368 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$56c11a77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.604 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.609 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$803aff41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:03:21.819 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2021-10-09 15:03:21.828 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-10-09 15:03:21.828 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-09 15:03:21.900 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2021-10-09 15:03:21.900 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1849 ms
+2021-10-09 15:03:21.973 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2021-10-09 15:03:22.125 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
+2021-10-09 15:03:22.566 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
+2021-10-09 15:03:22.736 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
+2021-10-09 15:03:22.817 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
 bindingTables:
 - t_order
 - t_order_item
@@ -44,133 +44,318 @@ tables:
         algorithmExpression: t_order_$->{order_id % 3}
         shardingColumn: order_id
 
-2021-10-08 09:49:55.329 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
+2021-10-09 15:03:22.817 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
 sql.show: 'true'
 
-2021-10-08 09:49:55.334 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
-2021-10-08 09:49:55.384 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
-2021-10-08 09:49:55.413 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 84 milliseconds.
-2021-10-08 09:49:55.580 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
-2021-10-08 09:49:56.536 INFO  [main] [] o.s.b.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
-2021-10-08 09:49:56.590 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
-2021-10-08 09:49:56.604 INFO  [main] [] com.whw.footstones.BasicApplication: Started BasicApplication in 4.93 seconds (JVM running for 5.738)
-2021-10-08 09:49:59.405 INFO  [SpringApplicationShutdownHook] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
-2021-10-08 09:49:59.405 INFO  [SpringApplicationShutdownHook] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
-2021-10-08 19:40:42.906 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 5347 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
-2021-10-08 19:40:42.909 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding,redis
-2021-10-08 19:40:44.011 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-10-08 19:40:44.014 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-10-08 19:40:44.050 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
-2021-10-08 19:40:44.321 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:44.334 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:44.336 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:44.338 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:44.340 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:44.341 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:44.627 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$56c11a77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:44.911 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:44.916 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$803aff41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:40:45.135 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
-2021-10-08 19:40:45.144 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
-2021-10-08 19:40:45.144 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-10-08 19:40:45.216 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
-2021-10-08 19:40:45.216 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2101 ms
-2021-10-08 19:40:45.308 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
-2021-10-08 19:40:45.471 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
-2021-10-08 19:40:45.957 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
-2021-10-08 19:40:46.138 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
-2021-10-08 19:40:46.221 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
-bindingTables:
-- t_order
-- t_order_item
-broadcastTables:
-- t_config
-defaultDataSourceName: db-0
-tables:
-  t_order:
-    actualDataNodes: db-$->{0..1}.t_order_$->{0..2}
-    databaseStrategy:
-      inline:
-        algorithmExpression: db-$->{order_id % 2}
-        shardingColumn: order_id
-    keyGenerator:
-      column: order_id
-      type: SNOWFLAKE
-    logicTable: t_order
-    tableStrategy:
-      inline:
-        algorithmExpression: t_order_$->{order_id % 3}
-        shardingColumn: order_id
-
-2021-10-08 19:40:46.222 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
-sql.show: 'true'
-
-2021-10-08 19:40:46.225 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
-2021-10-08 19:40:46.249 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
-2021-10-08 19:40:46.276 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 54 milliseconds.
-2021-10-08 19:40:46.437 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
-2021-10-08 19:40:47.445 INFO  [main] [] o.s.b.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
-2021-10-08 19:40:47.498 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
-2021-10-08 19:40:47.512 INFO  [main] [] com.whw.footstones.BasicApplication: Started BasicApplication in 5.065 seconds (JVM running for 5.862)
-2021-10-08 19:47:34.991 INFO  [SpringApplicationShutdownHook] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
-2021-10-08 19:47:34.991 INFO  [SpringApplicationShutdownHook] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
-2021-10-08 19:47:40.073 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 5401 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
-2021-10-08 19:47:40.074 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding,redis
-2021-10-08 19:47:40.806 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-10-08 19:47:40.808 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-10-08 19:47:40.829 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-2021-10-08 19:47:41.037 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.048 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.050 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.051 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.053 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.054 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.255 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$3845787e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.441 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.445 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$61bf5d48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-10-08 19:47:41.582 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
-2021-10-08 19:47:41.589 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
-2021-10-08 19:47:41.589 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-10-08 19:47:41.647 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
-2021-10-08 19:47:41.647 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1423 ms
-2021-10-08 19:47:41.711 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
-2021-10-08 19:47:41.818 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
-2021-10-08 19:47:42.153 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
-2021-10-08 19:47:42.301 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
-2021-10-08 19:47:42.359 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
-bindingTables:
-- t_order
-- t_order_item
-broadcastTables:
-- t_config
-defaultDataSourceName: db-0
-tables:
-  t_order:
-    actualDataNodes: db-$->{0..1}.t_order_$->{0..2}
-    databaseStrategy:
-      inline:
-        algorithmExpression: db-$->{order_id % 2}
-        shardingColumn: order_id
-    keyGenerator:
-      column: order_id
-      type: SNOWFLAKE
-    logicTable: t_order
-    tableStrategy:
-      inline:
-        algorithmExpression: t_order_$->{order_id % 3}
-        shardingColumn: order_id
-
-2021-10-08 19:47:42.359 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
-sql.show: 'true'
-
-2021-10-08 19:47:42.362 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
-2021-10-08 19:47:42.383 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
-2021-10-08 19:47:42.404 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 45 milliseconds.
-2021-10-08 19:47:42.513 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
-2021-10-08 19:47:42.605 WARN  [main] [] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLockUtil': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.redisson.api.RedissonClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2021-10-08 19:47:42.608 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
-2021-10-08 19:47:42.608 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
-2021-10-08 19:47:42.622 INFO  [main] [] org.apache.catalina.core.StandardService: Stopping service [Tomcat]
-2021-10-08 19:47:42.635 INFO  [main] [] o.s.b.a.l.ConditionEvaluationReportLoggingListener: 
+2021-10-09 15:03:22.821 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
+2021-10-09 15:03:22.844 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
+2021-10-09 15:03:22.872 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 55 milliseconds.
+2021-10-09 15:03:23.013 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
+2021-10-09 15:03:23.115 WARN  [main] [] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLockUtil': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.redisson.api.RedissonClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-10-09 15:03:23.119 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
+2021-10-09 15:03:23.119 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
+2021-10-09 15:03:23.135 INFO  [main] [] org.apache.catalina.core.StandardService: Stopping service [Tomcat]
+2021-10-09 15:03:23.148 INFO  [main] [] o.s.b.a.l.ConditionEvaluationReportLoggingListener: 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-09 15:15:19.091 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 6789 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
+2021-10-09 15:15:19.093 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding,redis
+2021-10-09 15:15:20.039 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 15:15:20.041 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 15:15:20.066 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-10-09 15:15:20.313 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:20.327 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:20.328 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:20.330 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:20.333 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:20.334 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:20.599 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$7ac93dba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:20.887 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:20.892 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$a4432284] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 15:15:21.105 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2021-10-09 15:15:21.112 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-10-09 15:15:21.112 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-09 15:15:21.194 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2021-10-09 15:15:21.194 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1924 ms
+2021-10-09 15:15:21.265 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2021-10-09 15:15:21.400 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
+2021-10-09 15:15:21.862 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
+2021-10-09 15:15:22.044 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
+2021-10-09 15:15:22.156 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
+bindingTables:
+- t_order
+- t_order_item
+broadcastTables:
+- t_config
+defaultDataSourceName: db-0
+tables:
+  t_order:
+    actualDataNodes: db-$->{0..1}.t_order_$->{0..2}
+    databaseStrategy:
+      inline:
+        algorithmExpression: db-$->{order_id % 2}
+        shardingColumn: order_id
+    keyGenerator:
+      column: order_id
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 3}
+        shardingColumn: order_id
+
+2021-10-09 15:15:22.157 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
+sql.show: 'true'
+
+2021-10-09 15:15:22.160 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
+2021-10-09 15:15:22.187 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
+2021-10-09 15:15:22.215 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 58 milliseconds.
+2021-10-09 15:15:22.371 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
+2021-10-09 15:15:22.479 WARN  [main] [] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLockUtil': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.redisson.api.RedissonClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-10-09 15:15:22.484 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
+2021-10-09 15:15:22.484 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
+2021-10-09 15:15:22.500 INFO  [main] [] org.apache.catalina.core.StandardService: Stopping service [Tomcat]
+2021-10-09 15:15:22.513 INFO  [main] [] o.s.b.a.l.ConditionEvaluationReportLoggingListener: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-09 16:18:21.299 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 7040 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
+2021-10-09 16:18:21.301 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding,redis
+2021-10-09 16:18:22.376 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 16:18:22.378 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 16:18:22.407 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-10-09 16:18:22.660 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:22.673 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:22.674 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:22.676 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:22.678 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:22.680 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:22.932 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$61edc0cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:23.178 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:23.182 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$8b67a599] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:18:23.381 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2021-10-09 16:18:23.389 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-10-09 16:18:23.390 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-09 16:18:23.460 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2021-10-09 16:18:23.460 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1940 ms
+2021-10-09 16:18:23.545 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2021-10-09 16:18:23.686 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
+2021-10-09 16:18:24.050 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
+2021-10-09 16:18:24.233 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
+2021-10-09 16:18:24.320 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
+bindingTables:
+- t_order
+- t_order_item
+broadcastTables:
+- t_config
+defaultDataSourceName: db-0
+tables:
+  t_order:
+    actualDataNodes: db-$->{0..1}.t_order_$->{0..2}
+    databaseStrategy:
+      inline:
+        algorithmExpression: db-$->{order_id % 2}
+        shardingColumn: order_id
+    keyGenerator:
+      column: order_id
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 3}
+        shardingColumn: order_id
+
+2021-10-09 16:18:24.321 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
+sql.show: 'true'
+
+2021-10-09 16:18:24.325 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
+2021-10-09 16:18:24.350 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
+2021-10-09 16:18:24.379 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 58 milliseconds.
+2021-10-09 16:18:24.524 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
+2021-10-09 16:18:24.725 WARN  [main] [] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLockUtil': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getRedissonClient' defined in com.whw.footstones.BasicApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'getRedissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: server(s) address(es) not defined!
+2021-10-09 16:18:24.729 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
+2021-10-09 16:18:24.730 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
+2021-10-09 16:18:24.745 INFO  [main] [] org.apache.catalina.core.StandardService: Stopping service [Tomcat]
+2021-10-09 16:18:24.760 INFO  [main] [] o.s.b.a.l.ConditionEvaluationReportLoggingListener: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-09 16:23:07.449 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 7059 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
+2021-10-09 16:23:07.450 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding,redis
+2021-10-09 16:23:08.297 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 16:23:08.298 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 16:23:08.322 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-10-09 16:23:08.550 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:08.563 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:08.565 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:08.567 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:08.569 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:08.570 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:08.763 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$bd26fd9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:08.941 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:08.945 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$e6a0e269] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:23:09.094 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2021-10-09 16:23:09.101 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-10-09 16:23:09.101 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-09 16:23:09.161 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2021-10-09 16:23:09.161 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1549 ms
+2021-10-09 16:23:09.228 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2021-10-09 16:23:09.345 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
+2021-10-09 16:23:09.636 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
+2021-10-09 16:23:09.777 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
+2021-10-09 16:23:09.831 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
+bindingTables:
+- t_order
+- t_order_item
+broadcastTables:
+- t_config
+defaultDataSourceName: db-0
+tables:
+  t_order:
+    actualDataNodes: db-$->{0..1}.t_order_$->{0..2}
+    databaseStrategy:
+      inline:
+        algorithmExpression: db-$->{order_id % 2}
+        shardingColumn: order_id
+    keyGenerator:
+      column: order_id
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 3}
+        shardingColumn: order_id
+
+2021-10-09 16:23:09.832 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
+sql.show: 'true'
+
+2021-10-09 16:23:09.836 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
+2021-10-09 16:23:09.852 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
+2021-10-09 16:23:09.875 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 43 milliseconds.
+2021-10-09 16:23:09.987 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
+2021-10-09 16:23:10.192 INFO  [main] [] org.redisson.Version: Redisson 3.11.1
+2021-10-09 16:23:10.210 WARN  [main] [] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLockUtil': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getRedissonClient' defined in com.whw.footstones.BasicApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'getRedissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: masterName parameter is not defined!
+2021-10-09 16:23:10.213 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
+2021-10-09 16:23:10.214 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
+2021-10-09 16:23:10.227 INFO  [main] [] org.apache.catalina.core.StandardService: Stopping service [Tomcat]
+2021-10-09 16:23:10.361 INFO  [main] [] o.s.b.a.l.ConditionEvaluationReportLoggingListener: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-09 16:47:21.572 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 7149 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
+2021-10-09 16:47:21.574 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding,redis
+2021-10-09 16:47:22.480 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 16:47:22.484 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 16:47:22.515 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-10-09 16:47:22.780 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:22.792 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:22.793 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:22.795 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:22.797 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:22.799 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:23.077 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$2a77b8d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:23.321 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:23.326 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$53f19d9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:47:23.518 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2021-10-09 16:47:23.526 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-10-09 16:47:23.526 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-09 16:47:23.596 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2021-10-09 16:47:23.597 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1856 ms
+2021-10-09 16:47:23.676 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2021-10-09 16:47:23.807 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
+2021-10-09 16:47:24.239 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
+2021-10-09 16:47:24.421 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
+2021-10-09 16:47:24.507 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
+bindingTables:
+- t_order
+- t_order_item
+broadcastTables:
+- t_config
+defaultDataSourceName: db-0
+tables:
+  t_order:
+    actualDataNodes: db-$->{0..1}.t_order_$->{0..2}
+    databaseStrategy:
+      inline:
+        algorithmExpression: db-$->{order_id % 2}
+        shardingColumn: order_id
+    keyGenerator:
+      column: order_id
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 3}
+        shardingColumn: order_id
+
+2021-10-09 16:47:24.508 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
+sql.show: 'true'
+
+2021-10-09 16:47:24.512 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
+2021-10-09 16:47:24.534 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
+2021-10-09 16:47:24.559 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 51 milliseconds.
+2021-10-09 16:47:24.705 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
+2021-10-09 16:47:24.910 INFO  [main] [] org.redisson.Version: Redisson 3.11.1
+2021-10-09 16:47:24.927 WARN  [main] [] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisLockUtil': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getRedissonClient' defined in com.whw.footstones.BasicApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'getRedissonClient' threw exception; nested exception is java.lang.IllegalArgumentException: masterName parameter is not defined!
+2021-10-09 16:47:24.931 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
+2021-10-09 16:47:24.932 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
+2021-10-09 16:47:24.945 INFO  [main] [] org.apache.catalina.core.StandardService: Stopping service [Tomcat]
+2021-10-09 16:47:25.063 INFO  [main] [] o.s.b.a.l.ConditionEvaluationReportLoggingListener: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-09 16:48:29.955 INFO  [main] [] com.whw.footstones.BasicApplication: Starting BasicApplication using Java 1.8.0_171 on 172-15-16-63.lightspeed.brhmal.sbcglobal.net with PID 7159 (/Users/chenlinya/github/footstones/web/target/classes started by chenlinya in /Users/chenlinya/github/footstones)
+2021-10-09 16:48:29.956 INFO  [main] [] com.whw.footstones.BasicApplication: The following profiles are active: mysql,sharding,redis
+2021-10-09 16:48:30.841 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 16:48:30.843 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 16:48:30.870 INFO  [main] [] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-10-09 16:48:31.114 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.126 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.128 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.130 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.132 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.134 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.324 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$88da45ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.505 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.509 INFO  [main] [] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$b2542a94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 16:48:31.663 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2021-10-09 16:48:31.670 INFO  [main] [] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-10-09 16:48:31.670 INFO  [main] [] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-09 16:48:31.730 INFO  [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2021-10-09 16:48:31.730 INFO  [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1614 ms
+2021-10-09 16:48:31.793 INFO  [main] [] o.s.c.a.sentinel.SentinelWebAutoConfiguration: [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2021-10-09 16:48:31.910 WARN  [main] [] i.n.resolver.dns.DnsServerAddressStreamProviders: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
+2021-10-09 16:48:32.195 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} inited
+2021-10-09 16:48:32.336 INFO  [main] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} inited
+2021-10-09 16:48:32.396 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: ShardingRuleConfiguration:
+bindingTables:
+- t_order
+- t_order_item
+broadcastTables:
+- t_config
+defaultDataSourceName: db-0
+tables:
+  t_order:
+    actualDataNodes: db-$->{0..1}.t_order_$->{0..2}
+    databaseStrategy:
+      inline:
+        algorithmExpression: db-$->{order_id % 2}
+        shardingColumn: order_id
+    keyGenerator:
+      column: order_id
+      type: SNOWFLAKE
+    logicTable: t_order
+    tableStrategy:
+      inline:
+        algorithmExpression: t_order_$->{order_id % 3}
+        shardingColumn: order_id
+
+2021-10-09 16:48:32.396 INFO  [main] [] o.a.shardingsphere.core.log.ConfigurationLogger: Properties:
+sql.show: 'true'
+
+2021-10-09 16:48:32.399 INFO  [main] [] ShardingSphere-metadata: Loading 1 logic tables' meta data.
+2021-10-09 16:48:32.417 INFO  [main] [] ShardingSphere-metadata: Loading 7 tables' meta data.
+2021-10-09 16:48:32.441 INFO  [main] [] ShardingSphere-metadata: Meta data load finished, cost 45 milliseconds.
+2021-10-09 16:48:32.552 WARN  [main] [] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "com.whw.footstones.entity.TOrder0Entity".
+2021-10-09 16:48:32.735 INFO  [main] [] org.redisson.Version: Redisson 3.11.1
+2021-10-09 16:48:33.044 INFO  [redisson-netty-4-5] [] o.r.connection.pool.MasterPubSubConnectionPool: 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-10-09 16:48:33.052 INFO  [redisson-netty-4-18] [] org.redisson.connection.pool.MasterConnectionPool: 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-10-09 16:48:33.792 INFO  [main] [] o.s.b.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-09 16:48:33.831 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-09 16:48:33.845 INFO  [main] [] com.whw.footstones.BasicApplication: Started BasicApplication in 4.201 seconds (JVM running for 4.604)

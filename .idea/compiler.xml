@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ft-api" />
         <module name="ft-common" />
+        <module name="ft-redislock" />
         <module name="ft-support" />
         <module name="web" />
       </profile>
@@ -35,6 +36,7 @@
       <module name="ft-api" options="-parameters" />
       <module name="ft-common" options="-parameters" />
       <module name="ft-gm" options="-parameters" />
+      <module name="ft-redislock" options="-parameters" />
       <module name="ft-support" options="-parameters" />
       <module name="ft-te" options="-parameters" />
       <module name="logging" options="-parameters" />
