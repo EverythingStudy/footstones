@@ -359,3 +359,5 @@ sql.show: 'true'
 2021-10-09 16:48:33.792 INFO  [main] [] o.s.b.actuate.endpoint.web.EndpointLinksResolver: Exposing 1 endpoint(s) beneath base path '/actuator'
 2021-10-09 16:48:33.831 INFO  [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
 2021-10-09 16:48:33.845 INFO  [main] [] com.whw.footstones.BasicApplication: Started BasicApplication in 4.201 seconds (JVM running for 4.604)
+2021-10-09 18:47:32.825 INFO  [SpringApplicationShutdownHook] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
+2021-10-09 18:47:32.826 INFO  [SpringApplicationShutdownHook] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed
