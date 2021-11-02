@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ft-api" />
         <module name="ft-common" />
-        <module name="ft-support" />
         <module name="ft-supports" />
         <module name="web" />
       </profile>

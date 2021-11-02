@@ -170,7 +170,14 @@
             <artifactId>freemarker</artifactId>
             <version>2.3.30</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-generator-annprocess</artifactId>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -257,6 +264,18 @@
                 <artifactId>sharding-core-common</artifactId>
                 <version>${sharding}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.openjdk.jmh</groupId>
+                <artifactId>jmh-core</artifactId>
+                <version>1.23</version>
+            </dependency>
+            <dependency>
+                <groupId>org.openjdk.jmh</groupId>
+                <artifactId>jmh-generator-annprocess</artifactId>
+                <version>1.23</version>
+            </dependency>
+
         </dependencies>
 
     </dependencyManagement>
