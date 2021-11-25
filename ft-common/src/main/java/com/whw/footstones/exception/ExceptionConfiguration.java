@@ -1,6 +1,6 @@
 package com.whw.footstones.exception;
 
-import com.whw.footstones.core.message.Result;
+import com.whw.footstones.core.util.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.converter.HttpMessageNotReadableException;

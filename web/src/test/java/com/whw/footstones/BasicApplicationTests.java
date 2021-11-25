@@ -2,7 +2,7 @@ package com.whw.footstones;
 
 
 import com.whw.footstones.config.redis.RedisService;
-import com.whw.footstones.core.message.Result;
+import com.whw.footstones.core.util.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

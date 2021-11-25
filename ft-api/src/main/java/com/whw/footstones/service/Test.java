@@ -1,1 +1,1 @@
-package com.whw.footstones.service;import com.whw.footstones.core.message.Result;/** * @version 1.0 * @description: TODO * @date 2021/9/17 11:26 AM */public class Test {    public Result test() {        return Result.success("成功");    }}
+package com.whw.footstones.service;import com.whw.footstones.core.util.Result;/** * @version 1.0 * @description: TODO * @date 2021/9/17 11:26 AM */public class Test {    public Result test() {        return Result.success("成功");    }}
