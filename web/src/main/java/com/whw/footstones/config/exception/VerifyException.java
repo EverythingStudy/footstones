@@ -5,15 +5,16 @@ import lombok.Getter;
 /**
  * 校验异常类
  * 此异常阻止了异常栈追踪信息, 提高了性能, 避免抛出不必要的异常栈
+ *
+ * @author chenlinya
  */
 @Getter
 public class VerifyException extends RuntimeException {
 
     private static final long serialVersionUID = -3418676949916369533L;
 
-    // 错误码
     private final int code;
-    // 错误信息
+
     private final String msg;
 
     /**

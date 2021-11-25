@@ -1,12 +1,14 @@
 package com.whw.footstones.config.exception;
 
-import com.whw.footstones.common.exception.ExceptionEnums;
+import com.whw.footstones.exception.ExceptionEnums;
 import lombok.Getter;
 import lombok.ToString;
 
 /**
  * 业务异常类
  * 此异常保留了异常栈追踪信息
+ *
+ * @author chenlinya
  */
 @Getter
 public class ServiceException extends RuntimeException {
@@ -30,7 +32,7 @@ public class ServiceException extends RuntimeException {
     }
 
 
-    public ServiceException(final int errorCode, final String message){
+    public ServiceException(final int errorCode, final String message) {
         this(new ExceptionEnums() {
             @Override
             public int getCode() {
@@ -44,7 +46,7 @@ public class ServiceException extends RuntimeException {
         });
     }
 
-    public ServiceException(final int errorCode, final String format, final Object... args){
+    public ServiceException(final int errorCode, final String format, final Object... args) {
         this(new ExceptionEnums() {
             @Override
             public int getCode() {
@@ -56,7 +58,7 @@ public class ServiceException extends RuntimeException {
                 String message = format;
                 if (args != null && args.length > 0) {
                     for (int i = 0; i < args.length; i++) {
-                        message = message.replaceFirst("\\{\\}",args[i] == null ? "" : args[i].toString());
+                        message = message.replaceFirst("\\{\\}", args[i] == null ? "" : args[i].toString());
                     }
                 }
                 return message;
@@ -64,7 +66,7 @@ public class ServiceException extends RuntimeException {
         });
     }
 
-    public ServiceException(final ExceptionEnums exceptionEnums, final Object... args){
+    public ServiceException(final ExceptionEnums exceptionEnums, final Object... args) {
         this(new ExceptionEnums() {
             @Override
             public int getCode() {
@@ -76,7 +78,7 @@ public class ServiceException extends RuntimeException {
                 String message = exceptionEnums.getMessage();
                 if (args != null && args.length > 0) {
                     for (int i = 0; i < args.length; i++) {
-                        message = message.replaceFirst("\\{\\}",args[i] == null ? "" : args[i].toString());
+                        message = message.replaceFirst("\\{\\}", args[i] == null ? "" : args[i].toString());
                     }
                 }
                 return message;
@@ -146,7 +148,7 @@ public class ServiceException extends RuntimeException {
                     String message = exceptionEnums.getMessage();
                     if (args != null && args.length > 0) {
                         for (int i = 0; i < args.length; i++) {
-                            message = message.replaceFirst("\\{\\}",args[i] == null ? "" : args[i].toString());
+                            message = message.replaceFirst("\\{\\}", args[i] == null ? "" : args[i].toString());
                         }
                     }
                     return message;

@@ -1,0 +1,1 @@
+package com.whw.footstones.exception;import java.io.Serializable;/** * 异常接口, 各业务异常枚举需要继承此类 */public interface ExceptionEnums extends Serializable {    /**     * 错误码     * @return     */    int getCode();    /**     * 错误信息     * @return     */    String getMessage();}

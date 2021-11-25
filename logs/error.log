@@ -248,7 +248,7 @@ java.lang.ArithmeticException: / by zero
 	at java.lang.Thread.run(Thread.java:748)
 2021-11-03 20:01:52.124 ERROR [http-nio-9090-exec-1] [] com.whw.footstones.config.GlobalExceptionHandler: Failed to process the request, uri = //ft/getString
 2021-11-03 20:01:52.126 ERROR [http-nio-9090-exec-1] [] com.whw.footstones.config.GlobalExceptionHandler: 失败
-com.whw.footstones.common.exception.ServiceException: 失败
+ServiceException: 失败
 	at com.whw.footstones.core.util.Verify.verify(Verify.java:53)
 	at com.whw.footstones.config.redis.RedisService.set(RedisService.java:111)
 	at com.whw.footstones.controller.RedisController.setRedis(RedisController.java:45)
@@ -310,7 +310,7 @@ com.whw.footstones.common.exception.ServiceException: 失败
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 2021-11-03 20:15:02.515 ERROR [http-nio-9090-exec-2] [] com.whw.footstones.logging.LoggerAspect: error.
-com.whw.footstones.common.exception.ServiceException: 失败
+ServiceException: 失败
 	at com.whw.footstones.core.util.Verify.verify(Verify.java:53)
 	at com.whw.footstones.config.redis.RedisService.set(RedisService.java:111)
 	at com.whw.footstones.controller.RedisController.setRedis(RedisController.java:45)
@@ -408,7 +408,7 @@ com.whw.footstones.common.exception.ServiceException: 失败
 	at java.lang.Thread.run(Thread.java:748)
 2021-11-03 20:15:02.520 ERROR [http-nio-9090-exec-2] [] com.whw.footstones.config.GlobalExceptionHandler: Failed to process the request, uri = //ft/getString
 2021-11-03 20:15:02.520 ERROR [http-nio-9090-exec-2] [] com.whw.footstones.config.GlobalExceptionHandler: 失败
-com.whw.footstones.common.exception.ServiceException: 失败
+ServiceException: 失败
 	at com.whw.footstones.core.util.Verify.verify(Verify.java:53)
 	at com.whw.footstones.config.redis.RedisService.set(RedisService.java:111)
 	at com.whw.footstones.controller.RedisController.setRedis(RedisController.java:45)

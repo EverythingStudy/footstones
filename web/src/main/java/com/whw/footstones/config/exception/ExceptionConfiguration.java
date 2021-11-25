@@ -1,11 +1,9 @@
 package com.whw.footstones.config.exception;
 
-import com.whw.footstones.common.exception.ExceptionEnums;
+import com.whw.footstones.exception.ExceptionEnums;
 import com.whw.footstones.core.message.Result;
-import jodd.util.ArraysUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.codehaus.groovy.runtime.ArrayUtil;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -19,7 +17,6 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -32,20 +29,6 @@ import java.util.Set;
 @Slf4j
 @RestControllerAdvice
 public class ExceptionConfiguration {
-
-    /**
-     * 业务异常处理
-     * 如支付失败
-     *
-     * @param e 异常对象
-     * @return Ret
-     */
-//    @ExceptionHandler(ServiceException.class)
-//    @ResponseBody
-//    public Result handler(ServiceException e) {
-//        log.error(e.getMessage(), e);
-//        return Result.fail(e.getCode(), e.getMessage());
-//    }
 
     /**
      * 业务异常处理
