@@ -1,6 +1,5 @@
-package com.whw.footstones.config.exception;
+package com.whw.footstones.exception;
 
-import com.whw.footstones.exception.ExceptionEnums;
 import com.whw.footstones.core.message.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

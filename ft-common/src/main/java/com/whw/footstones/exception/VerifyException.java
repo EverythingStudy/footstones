@@ -1,4 +1,4 @@
-package com.whw.footstones.config.exception;
+package com.whw.footstones.exception;
 
 import lombok.Getter;
 
