@@ -3,6 +3,7 @@ package com.whw.footstones;
 
 import com.whw.footstones.config.redis.RedisService;
 import com.whw.footstones.core.util.Result;
+import com.whw.footstones.listener.MyListenerPlusher;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,11 +18,18 @@ public class BasicApplicationTests {
 
     @Autowired
     RedisService redisService;
+    @Autowired
+    MyListenerPlusher m;
 
     @Test
     public void TestRedis() {
         redisService.set("test", "key");
         Result.success("suc");
+    }
+
+    @Test
+    public void TestListener() {
+        m.pushListener("String");
     }
 
 }
