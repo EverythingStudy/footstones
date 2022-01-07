@@ -1,0 +1,2 @@
+2021-11-02 09:38:06.238 INFO  [SpringApplicationShutdownHook] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-1} closed
+2021-11-02 09:38:06.241 INFO  [SpringApplicationShutdownHook] [] com.alibaba.druid.pool.DruidDataSource: {dataSource-2} closed

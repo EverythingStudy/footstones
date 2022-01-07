@@ -7,6 +7,7 @@ import com.whw.footstones.listener.MyListenerPlusher;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -30,6 +31,12 @@ public class BasicApplicationTests {
     @Test
     public void TestListener() {
         m.pushListener("String");
+    }
+
+    @Test
+    public void TestMDC() {
+        MDC.put("session_id", Thread.currentThread().getName());
+        log.error("test MSC");
     }
 
 }
