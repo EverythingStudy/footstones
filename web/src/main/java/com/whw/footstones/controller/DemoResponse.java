@@ -1,0 +1,1 @@
+package com.whw.footstones.controller;import lombok.Data;/** * @author cly * @version 1.0 * @description: TODO * @date 10/23/23 6:14 PM */@Datapublic class DemoResponse {    private String code;}
