@@ -181,6 +181,19 @@
     </dependencies>
     <dependencyManagement>
         <dependencies>
+            <!-- Spring Boot WebFlux start -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-webflux</artifactId>
+                <version>2.6.0</version>
+            </dependency>
+            <!-- Reactor Core -->
+            <dependency>
+                <groupId>io.projectreactor</groupId>
+                <artifactId>reactor-core</artifactId>
+                <version>3.4.11</version>
+            </dependency>
+            <!-- Spring Boot WebFlux end -->
             <!-- MySQL 连接驱动依赖 -->
             <dependency>
                 <groupId>mysql</groupId>

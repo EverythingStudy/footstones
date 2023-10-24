@@ -4,52 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90698c9d-2cfd-45f4-881b-f3e52dcc4b79" name="Default Changelist" comment="spring 监听服务">
-      <change afterPath="$PROJECT_DIR$/.idea/footstones.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft-api/ft-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft-common/ft-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/error/IThirdServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/OutputMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/OutputMessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/advisor/ExceptionAdvisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/FrameConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/deserialize/CustomDateDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/deserialize/CustomEnumDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/deserialize/ICodeDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/DemoRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/DemoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="90698c9d-2cfd-45f4-881b-f3e52dcc4b79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/wapper/RequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/wapper/ResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft-supports/src/main/java/com/whw/footstones/service/SseEmitterServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/WebFluxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/SSEController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-api/target/test-classes/com/whw/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/advisor/ResponseAdvisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/advisor/ResponseAdvisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/converter/FrameJackson2HttpMessageConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/converter/FrameJackson2HttpMessageConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/wrapper/RequestWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/wrapper/ResponseWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/core/message/advisor/ResponseAdvisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/core/message/advisor/ResponseAdvisor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/core/message/converter/FrameJackson2HttpMessageConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/core/message/converter/FrameJackson2HttpMessageConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-api/src/main/java/com/whw/footstones/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-api/src/test/java/com/whw/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-api/target/classes/com/whw/footstones/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/log/LogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/log/LogFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/log/LogFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/log/LogFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/util/generated/JMHUtil_measureName_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/footstones.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/generated-sources/annotations/com/whw/footstones/util/generated/JMHUtil_measureName_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/wrapper/RequestWrapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/wrapper/RequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/wrapper/ResponseWrapper$OutputStreamWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/wrapper/ResponseWrapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/mybatis-plus.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/mybatis-plus.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/BasicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/BasicApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,10 +340,14 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/chenlinya/github/footstones/web/src/main/java/com/whw/footstones/config",
+    "last_opened_file_path": "/Users/chenlinya/github/footstones/ft-common/src/main/java/com/whw/footstones/core",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "File.Encoding",
     "spring.configuration.checksum": "df05319ab2220e03c5245f3f20507956"
   }
@@ -379,11 +360,11 @@
       <recent name="com.whw.footstones.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core" />
       <recent name="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config" />
       <recent name="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message" />
       <recent name="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller" />
       <recent name="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/exception" />
-      <recent name="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/exception" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.whw.footstones.core.message" />
@@ -550,7 +531,7 @@
       <workItem from="1655260309332" duration="192000" />
       <workItem from="1655277632747" duration="812000" />
       <workItem from="1698053411432" duration="554000" />
-      <workItem from="1698053973737" duration="11174000" />
+      <workItem from="1698053973737" duration="20336000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/EverythingStudy/footstones&#10;&#10;# Conflicts:&#10;#&#9;ft-common/src/main/java/com/whw/footstones/App.java&#10;#&#9;ft-support/pom.xml&#10;#&#9;pom.xml&#10;#&#9;web/pom.xml&#10;#&#9;web/src/main/java/com/whw/basic/controller/Test.java&#10;#&#9;web/src/main/java/com/whw/footstones/config/RedisConfig.java&#10;#&#9;web/src/main/java/com/whw/footstones/controller/RedissonController.java&#10;#&#9;web/src/main/resources/application.yml">
       <created>1633524921337</created>
@@ -664,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640135117588</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="request&amp;response 统一处理">
+      <created>1698069455485</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698069455485</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -791,7 +779,8 @@
     <MESSAGE value="11-02" />
     <MESSAGE value="日志和异常调试" />
     <MESSAGE value="spring 监听服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring 监听服务" />
+    <MESSAGE value="request&amp;response 统一处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="request&amp;response 统一处理" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -7,8 +7,10 @@ import org.redisson.client.RedisClient;
 import org.redisson.config.Config;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.reactive.config.EnableWebFlux;
 
 /**
  * @author chenlinya
@@ -17,6 +19,7 @@ import org.springframework.context.annotation.ComponentScan;
  **/
 @SpringBootApplication
 @MapperScan(basePackages = "com.whw.footstones.dao")
+//@EnableWebFlux
 public class BasicApplication {
 
     public static void main(String[] args) {
