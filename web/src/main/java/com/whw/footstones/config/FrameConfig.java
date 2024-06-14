@@ -15,13 +15,18 @@ import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.whw.footstones.config.deserialize.CustomEnumDeserializer;
 import com.whw.footstones.core.message.converter.FrameJackson2HttpMessageConverter;
 import com.whw.footstones.exception.ExceptionEnums;
+import com.whw.footstones.log.LogFilter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.http.HttpMessageConverters;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
 import java.lang.reflect.AnnotatedType;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 配置请求参数，响应体，日志等
@@ -195,4 +200,17 @@ public class FrameConfig {
         }
         return false;
     }
+
+//    @Autowired
+//    private List<String> ignoresUri;
+
+//    @Bean
+//    public FilterRegistrationBean logFilterRegistrationBean() {
+//        FilterRegistrationBean registration = new FilterRegistrationBean();
+//        registration.setFilter(new LogFilter(new ArrayList<>()));
+//        registration.addUrlPatterns(new String[]{"/*"});
+//        registration.setName("logFilter");
+//        registration.setOrder(1);
+//        return registration;
+//    }
 }

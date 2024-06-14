@@ -5,28 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90698c9d-2cfd-45f4-881b-f3e52dcc4b79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/wapper/RequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/wapper/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft-supports/src/main/java/com/whw/footstones/service/SseEmitterServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/WebFluxConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/SSEController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-api/src/main/java/com/whw/footstones/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-api/src/test/java/com/whw/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-api/target/classes/com/whw/footstones/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/log/LogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/log/LogFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/log/LogFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/log/LogFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/wrapper/RequestWrapper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/wrapper/RequestWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/wrapper/ResponseWrapper$OutputStreamWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/wrapper/ResponseWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/util/JMHUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/util/JMHUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/util/JMHUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/util/JMHUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/api.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/BasicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/BasicApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/FrameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/FrameConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,8 +337,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "df05319ab2220e03c5245f3f20507956"
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "969d34c0b7e6bf95a5d4f45e839d384b"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -531,7 +520,10 @@
       <workItem from="1655260309332" duration="192000" />
       <workItem from="1655277632747" duration="812000" />
       <workItem from="1698053411432" duration="554000" />
-      <workItem from="1698053973737" duration="20336000" />
+      <workItem from="1698053973737" duration="20623000" />
+      <workItem from="1698222328721" duration="3597000" />
+      <workItem from="1699961187542" duration="538000" />
+      <workItem from="1718344378171" duration="9203000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/EverythingStudy/footstones&#10;&#10;# Conflicts:&#10;#&#9;ft-common/src/main/java/com/whw/footstones/App.java&#10;#&#9;ft-support/pom.xml&#10;#&#9;pom.xml&#10;#&#9;web/pom.xml&#10;#&#9;web/src/main/java/com/whw/basic/controller/Test.java&#10;#&#9;web/src/main/java/com/whw/footstones/config/RedisConfig.java&#10;#&#9;web/src/main/java/com/whw/footstones/controller/RedissonController.java&#10;#&#9;web/src/main/resources/application.yml">
       <created>1633524921337</created>
@@ -652,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698069455485</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="request&amp;response 统一处理">
+      <created>1698136187838</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698136187838</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -800,18 +799,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/FrameConfig.java</url>
-          <line>185</line>
+          <line>190</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/advisor/ExceptionAdvisor.java</url>
           <line>56</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/DemoController.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/OutputMessage.java</url>
