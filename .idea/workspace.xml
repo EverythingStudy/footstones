@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90698c9d-2cfd-45f4-881b-f3e52dcc4b79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/TraceIdFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/sharding/DataSourceHealthConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/util/JMHUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/util/JMHUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/util/JMHUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/util/JMHUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/advisor/ResponseAdvisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/advisor/ResponseAdvisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/core/message/advisor/ResponseAdvisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/target/classes/com/whw/footstones/core/message/advisor/ResponseAdvisor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/api.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/FrameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/FrameConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/DemoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller/DemoRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -333,7 +336,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/chenlinya/github/footstones/ft-common/src/main/java/com/whw/footstones/core",
+    "last_opened_file_path": "/Users/chenlinya/github/footstones/web/src/main/java/com/whw/footstones/config",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -349,18 +352,18 @@
       <recent name="com.whw.footstones.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core" />
       <recent name="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/config" />
+      <recent name="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core" />
       <recent name="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message" />
       <recent name="$PROJECT_DIR$/web/src/main/java/com/whw/footstones/controller" />
       <recent name="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/exception" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.whw.footstones.config" />
       <recent name="com.whw.footstones.core.message" />
       <recent name="com.whw.footstones.core.error" />
       <recent name="com.whw.footstones.core.message.advisor" />
       <recent name="com.whw.footstones.config.deserialize" />
-      <recent name="com.whw.footstones.config" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BasicApplication">
@@ -439,8 +442,19 @@
       </method>
     </configuration>
     <configuration name="BasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.whw.footstones.BasicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="footstones" />
+      <option name="SPRING_BOOT_MAIN_CLASS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -523,7 +537,7 @@
       <workItem from="1698053973737" duration="20623000" />
       <workItem from="1698222328721" duration="3597000" />
       <workItem from="1699961187542" duration="538000" />
-      <workItem from="1718344378171" duration="9203000" />
+      <workItem from="1718344378171" duration="36514000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/EverythingStudy/footstones&#10;&#10;# Conflicts:&#10;#&#9;ft-common/src/main/java/com/whw/footstones/App.java&#10;#&#9;ft-support/pom.xml&#10;#&#9;pom.xml&#10;#&#9;web/pom.xml&#10;#&#9;web/src/main/java/com/whw/basic/controller/Test.java&#10;#&#9;web/src/main/java/com/whw/footstones/config/RedisConfig.java&#10;#&#9;web/src/main/java/com/whw/footstones/controller/RedissonController.java&#10;#&#9;web/src/main/resources/application.yml">
       <created>1633524921337</created>
@@ -651,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698136187838</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="任务-142349：竞争月报问题排查（缺陷-39079：竞争月报填报无法提交）">
+      <created>1718364469424</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718364469424</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -768,6 +789,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sharding" />
     <MESSAGE value="分页逻辑" />
@@ -779,7 +811,8 @@
     <MESSAGE value="日志和异常调试" />
     <MESSAGE value="spring 监听服务" />
     <MESSAGE value="request&amp;response 统一处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="request&amp;response 统一处理" />
+    <MESSAGE value="任务-142349：竞争月报问题排查（缺陷-39079：竞争月报填报无法提交）" />
+    <option name="LAST_COMMIT_MESSAGE" value="任务-142349：竞争月报问题排查（缺陷-39079：竞争月报填报无法提交）" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -808,9 +841,29 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/OutputMessage.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="30" />
+          <url>file://$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/message/converter/FrameJackson2HttpMessageConverter.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/maven/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9-sources.jar!/org/springframework/web/servlet/function/DefaultServerRequest.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/maven/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9-sources.jar!/org/springframework/web/servlet/function/DefaultServerRequest.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/maven/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/maven/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9-sources.jar!/org/springframework/web/servlet/function/DefaultServerRequestBuilder.java</url>
+          <line>291</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
