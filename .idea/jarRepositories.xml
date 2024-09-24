@@ -7,9 +7,19 @@
       <option name="url" value="http://maven.corp.songguo7.com:8360/nexus/content/groups/public" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="songguo public nexus" />
+      <option name="url" value="https://maven.aliyun.com/repository/central/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="http://maven.corp.songguo7.com:8360/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://192.168.195.101:8081/repository/maven_public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />

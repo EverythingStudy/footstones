@@ -36,6 +36,7 @@
         <option value="$PROJECT_DIR$/gf/pom.xml" />
       </set>
     </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="PDMPlugin">
     <option name="skipTestSources" value="false" />
