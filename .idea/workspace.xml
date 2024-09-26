@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90698c9d-2cfd-45f4-881b-f3e52dcc4b79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/footstones.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/out/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-api/target/classes/com/whw/footstones/service/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-api/target/classes/com/whw/footstones/service/Test2Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-api/target/classes/com/whw/footstones/service/TestInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/util/MockUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ft-common/src/main/java/com/whw/footstones/core/util/MockUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/generated-sources/annotations/com/whw/footstones/util/generated/JMHUtil_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/generated-sources/annotations/com/whw/footstones/util/generated/JMHUtil_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/generated-sources/annotations/com/whw/footstones/util/generated/JMHUtil_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/generated-sources/annotations/com/whw/footstones/util/generated/JMHUtil_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/generated-sources/annotations/com/whw/footstones/util/generated/JMHUtil_testStringAdd_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-common/target/generated-sources/annotations/com/whw/footstones/util/generated/JMHUtil_testStringBuilderAdd_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-supports/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-supports/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-supports/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-supports/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-supports/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft-supports/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/logs/all.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/logs/all.log.2021-11-03.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/logs/all.log.2021-12-01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/logs/api.log" beforeDir="false" afterPath="$PROJECT_DIR$/web/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/logs/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/logs/error.log.2021-11-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +42,11 @@
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.20.5" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="note" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -164,9 +139,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="25" />
     <option name="width" value="1792" />
@@ -379,6 +354,11 @@
     "settings.editor.selected.configurable": "preferences.language.Kotlin",
     "spring.configuration.checksum": "969d34c0b7e6bf95a5d4f45e839d384b",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -507,11 +487,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="JUnit.BasicApplicationTests.TestMDC" />
         <item itemvalue="JUnit.BasicApplicationTests.TestListener" />
-        <item itemvalue="Application.JMHUtil" />
         <item itemvalue="JUnit.BasicApplicationTests.TestRedis" />
+        <item itemvalue="Application.JMHUtil" />
+        <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +563,11 @@
       <workItem from="1698222328721" duration="3597000" />
       <workItem from="1699961187542" duration="538000" />
       <workItem from="1718344378171" duration="36514000" />
-      <workItem from="1727141627864" duration="2826000" />
+      <workItem from="1727141627864" duration="4248000" />
+      <workItem from="1727161953155" duration="5016000" />
+      <workItem from="1727236888620" duration="2414000" />
+      <workItem from="1727243168493" duration="1003000" />
+      <workItem from="1727245775045" duration="2048000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/EverythingStudy/footstones&#10;&#10;# Conflicts:&#10;#&#9;ft-common/src/main/java/com/whw/footstones/App.java&#10;#&#9;ft-support/pom.xml&#10;#&#9;pom.xml&#10;#&#9;web/pom.xml&#10;#&#9;web/src/main/java/com/whw/basic/controller/Test.java&#10;#&#9;web/src/main/java/com/whw/footstones/config/RedisConfig.java&#10;#&#9;web/src/main/java/com/whw/footstones/controller/RedissonController.java&#10;#&#9;web/src/main/resources/application.yml">
       <created>1633524921337</created>
